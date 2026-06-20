@@ -2,622 +2,903 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aneka Jaya - Xiaomi Kamera CCTV Dual Lens PTZ 360 C500</title>
-    <meta name="description" content="Xiaomi Kamera CCTV C500 Dual Lens 360 AI Detection. Harga diskon 50% hanya Rp 1.355.000. Gratis Ongkir!">
-    
-    <!-- Meta Pixel Code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Aneka Jaya - Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP</title>
+    <meta name="description" content="Xiaomi Smart Cam C500 Dual Eye PTZ 360° WiFi 6 4MP - Kualitas gambar jernih dengan dual lensa, AI detection, night vision, dan fitur intercom.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1202889101065810'); 
-        fbq('track', 'PageView');
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','1202889101065810');
+    fbq('track','PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1202889101065810&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1202889101065810&ev=PageView&noscript=1"/></noscript>
+    <script>
+    tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}
+    </script>
     <style>
-        :root {
-            --primary: #FF6900;
-            --secondary: #333333;
-            --light: #f9f9f9;
-            --border: #e0e0e0;
-            --success: #28a745;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background-color: #ffffff; color: var(--secondary); line-height: 1.6; }
-        
-        /* Header */
-        header { padding: 15px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; background: #fff; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary); }
-        .header-right { display: flex; align-items: center; gap: 15px; }
-        .operational-hours { font-size: 0.85rem; color: #666; background: #f0f0f0; padding: 5px 10px; border-radius: 20px; }
-        
-        .wa-nav-btn { background: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; font-size: 0.9rem; transition: 0.3s; }
-        .wa-nav-btn:hover { background: #128C7E; }
-        
-        /* Container */
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        
-        /* Hero Section */
-        .hero { display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px; }
-        .hero-images { flex: 1; min-width: 300px; }
-        .main-image-container { position: relative; width: 100%; border-radius: 10px; border: 1px solid var(--border); overflow: hidden; }
-        .main-image { width: 100%; display: block; }
-        .main-nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 1.5rem; border-radius: 5px; }
-        .prev-btn { left: 10px; }
-        .next-btn { right: 10px; }
-        
-        .thumbnail-container { display: flex; gap: 10px; margin-top: 10px; overflow-x: auto; padding-bottom: 5px; }
-        .thumbnail { width: 70px; height: 70px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 2px solid transparent; flex-shrink: 0; }
-        .thumbnail.active { border-color: var(--primary); }
-        
-        .hero-info { flex: 1; min-width: 300px; }
-        .hero-info h1 { font-size: 1.8rem; margin-bottom: 10px; }
-        .price-tag { margin: 15px 0; }
-        .price-discount { font-size: 1.2rem; color: #999; text-decoration: line-through; }
-        .price-final { font-size: 2rem; color: var(--primary); font-weight: bold; }
-        .discount-badge { background: #ff0000; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8rem; font-weight: bold; }
-        .free-ship-badge { display: inline-block; background: #e1f7e1; color: var(--success); padding: 5px 10px; border-radius: 5px; font-weight: bold; margin-bottom: 15px; }
-        
-        .btn-buy { background: var(--primary); color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 1.2rem; font-weight: bold; cursor: pointer; width: 100%; transition: 0.3s; }
-        .btn-buy:hover { background: #e65c00; }
-        
-        /* Sections */
-        .section { margin-bottom: 40px; padding: 20px; border: 1px solid var(--border); border-radius: 10px; background: #fff; }
-        .section h2 { border-bottom: 3px solid var(--primary); display: inline-block; padding-bottom: 5px; margin-bottom: 15px; color: var(--secondary); }
-        .section h3 { margin-top: 15px; margin-bottom: 10px; color: var(--primary); }
-        
-        /* Problem Solution */
-        .ps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .ps-card { padding: 15px; background: var(--light); border-radius: 8px; }
-        .ps-card h3 { margin-bottom: 10px; margin-top: 0; }
-        .problem h3 { color: #dc3545; }
-        .solution h3 { color: var(--success); }
-        @media (max-width: 768px) { .ps-grid { grid-template-columns: 1fr; } }
-        
-        /* Features List */
-        .feature-item { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
-        .feature-item:last-child { border-bottom: none; }
-        .feature-item strong { color: var(--secondary); }
-        
-        /* Specs & Features */
-        .specs-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        .specs-table td { padding: 10px; border-bottom: 1px solid var(--border); }
-        .specs-table td:first-child { font-weight: bold; width: 40%; }
-        
-        /* Reviews */
-        .review-card { background: var(--light); padding: 15px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid var(--primary); }
-        .review-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: bold; }
-        .stars { color: #ffc107; }
-
-        /* Form */
-        .form-group { margin-bottom: 15px; }
-        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9rem; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; }
-        
-        .qty-selector { display: flex; align-items: center; gap: 15px; }
-        .qty-btn { background: #eee; border: none; width: 40px; height: 40px; font-size: 1.5rem; cursor: pointer; border-radius: 5px; }
-        .qty-input { width: 60px; text-align: center; font-size: 1.2rem; border: 1px solid #ccc; border-radius: 5px; }
-        
-        .transfer-info { display: none; background: #fff3cd; padding: 15px; border-radius: 8px; margin-top: 10px; border: 1px solid #ffe69c; }
-        
-        .btn-submit { background: #28a745; color: white; padding: 15px; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: bold; cursor: pointer; width: 100%; transition: 0.2s; }
-        .btn-submit:disabled { background: #6c757d; cursor: not-allowed; }
-
-        /* Modal */
-        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6); justify-content: center; align-items: center; }
-        .modal-content { background-color: #fff; margin: auto; padding: 25px; border-radius: 10px; width: 90%; max-width: 450px; position: relative; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
-        .close-btn { position: absolute; top: 10px; right: 20px; font-size: 2rem; cursor: pointer; color: #999; }
-        .receipt-box { border: 2px dashed #ccc; padding: 15px; margin: 15px 0; border-radius: 8px; }
-        .receipt-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.95rem; }
-        .text-right { text-align: right; }
-        .text-danger { color: #dc3545; text-decoration: line-through; font-size: 0.8rem; margin-right: 5px; }
-        
-        /* Footer */
-        footer { background: #f4f4f4; padding: 20px; text-align: center; margin-top: 40px; color: #666; font-size: 0.9rem; }
-
-        .floating-wa { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 99; text-decoration: none; }
+        *{-webkit-tap-highlight-color:transparent}
+        img{pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;draggable:false}
+        .img-prot{position:relative;overflow:hidden}
+        .img-prot::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:transparent;z-index:10;pointer-events:all}
+        body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+        input,select,textarea{-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}
+        @media print{body{display:none!important}}
+        html{scroll-behavior:smooth}
+        ::-webkit-scrollbar{width:4px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:9px}
+        .thumb-active{border-color:#111827!important;opacity:1!important}
+        .modal-overlay{animation:fadeIn .2s ease}
+        .modal-content{animation:slideUp .3s ease}
+        @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+        @keyframes slideUp{from{transform:translateY(40px);opacity:0}to{transform:translateY(0);opacity:1}}
+        @keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
+        .pulse-dot{animation:pulse-dot 1.5s ease-in-out infinite}
+        .toast-anim{animation:toastIn .3s ease,toastOut .3s ease 2.7s forwards}
+        @keyframes toastIn{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+        @keyframes toastOut{from{opacity:1}to{opacity:0}}
+        .confirm-scroll{-webkit-overflow-scrolling:touch;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#d1d5db transparent}
+        .confirm-scroll::-webkit-scrollbar{width:4px}
+        .confirm-scroll::-webkit-scrollbar-track{background:transparent}
+        .confirm-scroll::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:9px}
+        @keyframes checkBounce{0%{transform:scale(0)}50%{transform:scale(1.2)}100%{transform:scale(1)}}
+        .check-anim{animation:checkBounce .5s ease .2s both}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+        .fade-up-1{animation:fadeUp .4s ease .1s both}
+        .fade-up-2{animation:fadeUp .4s ease .25s both}
+        .fade-up-3{animation:fadeUp .4s ease .4s both}
+        .fade-up-4{animation:fadeUp .4s ease .55s both}
+        .fade-up-5{animation:fadeUp .4s ease .7s both}
     </style>
 </head>
-<body>
+<body class="bg-white text-gray-900 font-sans antialiased" oncontextmenu="return false" ondragstart="return false">
 
-    <!-- Header -->
-    <header>
-        <div class="logo">Aneka Jaya</div>
-        <div class="header-right">
-            <span class="operational-hours">Operasional: 09.00 - 17.00</span>
-            <a href="https://wa.me/6285183226514?text=Halo%20Admin,%20saya%20mau%20tanya%20produk%20CCTV" target="_blank" class="wa-nav-btn">WhatsApp</a>
-        </div>
-    </header>
-
-    <div class="container">
-        <!-- Hero Section -->
-        <div class="hero">
-            <div class="hero-images">
-                <div class="main-image-container">
-                    <button class="main-nav-btn prev-btn" onclick="changeImageSlider(-1)">&#10094;</button>
-                    <img src="https://z-cdn-media.chatglm.cn/files/830f5f73-aae4-4eb0-8e80-ba6d12402dd5.jpeg?auth_key=1881841709-a73d8755bcaf47ba9bb6f46eada3dda6-0-348c2b5628e9b6c1340f62050c66a300" alt="Xiaomi C500 Main" class="main-image" id="mainImage">
-                    <button class="main-nav-btn next-btn" onclick="changeImageSlider(1)">&#10095;</button>
-                </div>
-                <div class="thumbnail-container" id="thumbContainer">
-                    <!-- Thumbnails injected by JS -->
-                </div>
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2">
+            <div class="w-8 h-8 sm:w-9 sm:h-9 bg-gray-900 rounded-lg flex items-center justify-center">
+                <span class="text-white font-bold text-xs sm:text-sm">AJ</span>
             </div>
+            <span class="text-base sm:text-lg font-bold tracking-tight text-gray-900">Aneka Jaya</span>
+        </a>
+        <a href="https://wa.me/6285183226514" target="_blank" rel="noopener" class="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 hover:scale-105">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <span class="hidden sm:inline">WhatsApp</span>
+        </a>
+    </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="pt-14 sm:pt-16">
+
+    <!-- PRODUCT SECTION -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 lg:py-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-12">
             
-            <div class="hero-info">
-                <h1>Xiaomi Kamera CCTV Dual Lens PTZ 360 Degree AI Detection WiFi 6 4MP - C500 - White</h1>
-                <div class="free-ship-badge">GRATIS ONGKIR</div>
-                <div class="price-tag">
-                    <span class="price-discount">Rp 2.710.000</span> <span class="discount-badge">-50%</span><br>
-                    <span class="price-final">Rp 1.355.000</span>
+            <!-- IMAGE GALLERY -->
+            <div class="space-y-2.5">
+                <div class="img-prot rounded-2xl overflow-hidden bg-gray-50 aspect-square flex items-center justify-center border border-gray-100" id="mainImageWrap">
+                    <img id="mainImage" src="https://z-cdn-media.chatglm.cn/files/07c177b1-19f2-461a-a65f-49eee852d75f.jpeg?auth_key=1881972479-613dcd3950264b2cb07825ab578e2c34-0-ca9865af2a7f186acee0cbf8ab0f12d7" alt="Xiaomi Smart Cam C500" class="w-full h-full object-cover">
                 </div>
-                <p style="margin-bottom: 20px; color: #666;">Kondisi: <strong>Baru</strong> | Garansi: <strong>1 Tahun Garansi</strong></p>
-                <button class="btn-buy" onclick="document.getElementById('orderForm').scrollIntoView({behavior: 'smooth'})">Pesan Sekarang</button>
-            </div>
-        </div>
-
-        <!-- Problem & Solution -->
-        <div class="section">
-            <h2>Kenapa Harus Memakai Produk Ini?</h2>
-            <div class="ps-grid">
-                <div class="ps-card problem">
-                    <h3>😓 Masalah yang Sering Terjadi:</h3>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>"Mulai worry gara2 kehilangan paket pas rumah lg kosong."</li>
-                        <li>"Bingung compare cctv outdoor/indoor under 1jt yang connect to handphone."</li>
-                        <li>"Cari merk cctv yang bagus merk dan type apa ya? Bardi, Ezviz atau apa?"</li>
-                        <li>Pengawasan malam hari kurang jelas, rekaman blur.</li>
-                        <li>Notifikasi lambat, koneksi sering putus-putus.</li>
-                    </ul>
-                </div>
-                <div class="ps-card solution">
-                    <h3>✅ Solusi Xiaomi C500:</h3>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Dual Lensa 4MP + PTZ 360°:</strong> Awasi setiap sudut rumah tanpa titik buta. Tangkap paket kurir dengan jelas!</li>
-                        <li><strong>Under 1jt (Diskon 50%):</strong> Harga terjangkau Rp 1.355.000, kualitas sejuta umat. Worth it dibanding merk lain!</li>
-                        <li><strong>WiFi 6 Stabil:</strong> Koneksi cepat tanpa lag, streaming real-time langsung ke handphone via Mi Home App.</li>
-                        <li><strong>AI Detection Cerdas:</strong> Bisa bedain manusia, hewan, atau bayi menangis. Kurangi false alarm.</li>
-                        <li><strong>Night Vision & Two-Way Audio:</strong> Tetap jelas di gelap. Bila kurir datang, bisa ngobrol langsung via kamera.</li>
-                    </ul>
+                <div class="grid grid-cols-4 gap-2" id="thumbGrid">
+                    <button onclick="changeImage(0)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200 thumb-active">
+                        <img src="https://z-cdn-media.chatglm.cn/files/07c177b1-19f2-461a-a65f-49eee852d75f.jpeg?auth_key=1881972479-613dcd3950264b2cb07825ab578e2c34-0-ca9865af2a7f186acee0cbf8ab0f12d7" alt="thumb1" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(1)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/3a30d8a3-9553-46d7-8397-08992a870176.jpg?auth_key=1881972479-e8542f5e294f4b41b11d39ed7446a77c-0-ad519165149e23f8d3b57fbe04999828" alt="thumb2" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(2)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/c9709661-e9a5-4b55-9d3c-edb279c99646.jpeg?auth_key=1881972479-73f2550ad2014ae1955bc9182407aaac-0-b25d6cc6836b38e06da577bcb2957d32" alt="thumb3" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(3)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/3d52ab60-6b49-415c-b1fa-93abf0e60b98.jpeg?auth_key=1881972479-3a0895dccee84e8c90ccea75684c248e-0-a5c064836596c607142c10f492ba39e8" alt="thumb4" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(4)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/b4b06da1-2e6d-49b4-8fc1-a333bc4f2785.jpeg?auth_key=1881972479-fc4aec8b6654444b9449df306bc3107d-0-650ceae78ad3cb2f448825feb1714d09" alt="thumb5" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(5)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/d55d3606-d810-44a9-abc5-cb8cddb53996.jpeg?auth_key=1881972479-b17860f42521474091d9e42f4931a6e0-0-2551c6fd8ae6b06e7e463c4fe415b496" alt="thumb6" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(6)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/5eeec701-135a-4e1f-9554-011534da7f16.jpg?auth_key=1881972479-5b5a4b66ba8743309544336eb070bc08-0-5f5678ae79e9ac8c4db8667aaec078ba" alt="thumb7" class="w-full h-full object-cover">
+                    </button>
+                    <button onclick="changeImage(7)" class="img-prot rounded-xl overflow-hidden aspect-square border-2 border-gray-200 opacity-60 hover:opacity-100 transition-all duration-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/e6c5dcee-9ded-49d5-b5ce-15421c7dab47.jpg?auth_key=1881972479-005f2f6251ca48cfb6181f4b2b7f239a-0-29353e19451e6bf1df8ff26d3bc059f6" alt="thumb8" class="w-full h-full object-cover">
+                    </button>
                 </div>
             </div>
-        </div>
 
-        <!-- Product Details & Features -->
-        <div class="section">
-            <h2>Rincian & Fitur Produk</h2>
-            <p style="margin-bottom: 15px;">Ingin memiliki sistem pengawasan yang efektif dan pintar? Inilah saatnya untuk menggunakan kamera CCTV C500 dari Xiaomi. Kualitas gambar yang jernih akan Anda dapatkan dari berbagai sudut pengawasan. Dilengkapi dengan dual lensa, pan tilt zoom, Wi-Fi 6, auto tracking, night vision, AI detection, dan makin canggih dengan fitur intercom untuk berkomunikasi dalam situasi tertentu.</p>
-            
-            <div class="feature-item">
-                <h3>Jangkauan Lebih Luas</h3>
-                <p>Awasi setiap sudut rumah menggunakan kamera CCTV C500. Hadir dengan dual lensa kamera yang memiliki kemampuan rotasi 360 derajat secara horizontal dan 93 derajat secara vertikal. Dengan lensa wide-angle kamera CCTV mampu menangkap area lebih luas dalam satu frame.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Mengontrol Jarak Jauh</h3>
-                <p>CCTV C500 telah mendukung integrasi ke Xiaomi Home (Mi Home). Notifikasi secara real time juga bisa Anda terima melalui smartphone meski lokasi Anda tidak berada di rumah. Menggunakan aplikasi Anda juga bisa melakukan pemantauan menyeluruh dengan pan, tilt, atau zoom.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Kualitas Rekaman Jernih</h3>
-                <p>Kamera CCTV ini hadir dengan kamera 4 MP dengan lensa aperture besar F1.6 sehingga menghasilkan gambar yang lebih terang, lebih jernih, dan kaya detail, terutama dalam kondisi cahaya rendah.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Malam Hari Tetap Jelas</h3>
-                <p>Tidak perlu khawatir saat ruangan dalam kondisi gelap karena kamera CCTV telah dibekali sistem night vision. Mampu menangkap gambar malam hari dengan noise yang lebih rendah, kontras lebih baik, dan akurasi warna yang lebih natural.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Koneksi Stabil Tanpa Lag</h3>
-                <p>Nikmati koneksi lebih cepat dan stabil dengan dukungan Wi-Fi 6 yang mendukung jaringan 2.4 GHz dan 5 GHz. Teknologi terbaru ini memastikan streaming video real-time berjalan lancar, tanpa buffering meski jarak router cukup jauh.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Deteksi Cerdas dan Akurat</h3>
-                <p>Dibekali kecerdasan AI tingkat lanjut, kamera ini mampu membedakan antara manusia, hewan, dan objek lainnya, sehingga mengurangi false alarm. AI juga dapat mendeteksi gerakan mencurigakan dan memberikan notifikasi real-time langsung ke smartphone Anda.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Komunikasi Dua Arah</h3>
-                <p>Untuk mempermudah berkomunikasi dengan orang yang berada di dalam rumah, CCTV ini dilengkapi dengan fitur voice intercom. Fitur ini cocok digunakan untuk menghadapi situasi darurat, seperti saat sedang sakit atau menerima paket.</p>
-            </div>
-
-            <h3 style="margin-top: 20px;">Kelengkapan Produk:</h3>
-            <ul style="margin-left: 20px; color: #444; margin-bottom: 20px;">
-                <li>1 x Xiaomi Kamera CCTV Dual Lens PTZ 360 Degree AI Detection WiFi 6 4MP - C500</li>
-                <li>1 x Mounting Bracket</li>
-                <li>1 x Mounting Template Sticker</li>
-                <li>1 x Power Adapter</li>
-                <li>1 x Power Cable</li>
-                <li>4 x Wall Mounting Accessories</li>
-                <li>1 x Panduan Penggunaan</li>
-            </ul>
-
-            <h3>Spesifikasi Lengkap:</h3>
-            <table class="specs-table">
-                <tr><td>Brand</td><td>Xiaomi</td></tr>
-                <tr><td>Garansi</td><td>1 Tahun Garansi</td></tr>
-                <tr><td>Berat Produk</td><td>0.8 kg</td></tr>
-                <tr><td>Dimensi Kemasan</td><td>10 x 11 x 20 cm</td></tr>
-                <tr><td>Material</td><td>Plastik</td></tr>
-                <tr><td>Dimensi Bodi</td><td>78 × 77 × 127 mm</td></tr>
-                <tr><td>Diameter Mounting Bracket</td><td>7.6 cm</td></tr>
-                <tr><td>Panjang Kabel USB Type C</td><td>Sekitar 2 M</td></tr>
-                <tr><td>Region</td><td>China Mainland</td></tr>
-                <tr><td>Voltase</td><td>5 V, 2 A</td></tr>
-                <tr><td>Suhu Operasional</td><td>-10°C - 45°C</td></tr>
-                <tr><td>Koneksi Nirkabel</td><td>Wi-Fi IEEE 802.11 a / b / g / n / ac / ax</td></tr>
-                <tr><td>Sistem yang Didukung</td><td>Android 8 atau iOS 12.0 dan Versi Terbaru</td></tr>
-                <tr><td>Frekuensi</td><td>2.4 GHz / 5 GHz</td></tr>
-                <tr><td>Penyimpanan</td><td>Kartu microSD (16-256 GB), Cloud, NAS</td></tr>
-                <tr><td>Processor</td><td>A35 Architecture</td></tr>
-                <tr><td>Wi-Fi</td><td>Dual-Band Wi-Fi 6</td></tr>
-                <tr><td>Audio</td><td>Dua Arah (Two-Way Audio)</td></tr>
-                <tr><td>Resolusi Video</td><td>2560 × 1440</td></tr>
-                <tr><td>Resolusi Kamera</td><td>4 MP + 4 MP (Dual Camera 2.5 K)</td></tr>
-                <tr><td>Aplikasi</td><td>Xiaomi Home (Mi Home)</td></tr>
-                <tr><td>Aperture</td><td>F1.6</td></tr>
-            </table>
-        </div>
-
-        <!-- Warranty Info -->
-        <div class="section" style="background: #fff9e6; border-color: #ffe69c;">
-            <h2 style="border-color: #ffc107;">Syarat Klaim Garansi / Asuransi Kerusakan</h2>
-            <p><strong>Syarat utama:</strong> Video Unboxing Tanpa Jeda yang memperlihatkan kerusakan barang dan kondisi paket saat diterima.</p>
-            <p style="margin-top: 10px;"><strong>Garansi:</strong> Uang Kembali atau Kirim Ulang (jika terbukti cacat/rusak saat diterima sesuai syarat di atas).</p>
-        </div>
-
-        <!-- Reviews -->
-        <div class="section">
-            <h2>Review Pembeli</h2>
-            
-            <div class="review-card">
-                <div class="review-header">
-                    <span>Raka Pratama</span>
-                    <span class="stars">★★★★★</span>
+            <!-- PRODUCT INFO -->
+            <div class="flex flex-col justify-center space-y-4 sm:space-y-5">
+                <div>
+                    <span class="inline-block bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full mb-3">Xiaomi</span>
+                    <h1 class="text-xl sm:text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 leading-tight">
+                        Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih
+                    </h1>
                 </div>
-                <p>"Wuuys finally cctv udah dipasang di teras. Dulu parno banget soalnya sering kepencet paket ilang pas rumah kosong. Ini cuma 1jt-an tapi dual lensa parah sih, resolusi 4mp nya jernih banget pas malem. Worth it banget!"</p>
-            </div>
 
-            <div class="review-card">
-                <div class="review-header">
-                    <span>Sasa Lestari</span>
-                    <span class="stars">★★★★★</span>
-                </div>
-                <p>"Sebelumnya bingung banget mau beli bardi atau ezviz, eh nemu xiaomi c500 ini. To the point sih connect ke mi home app gampang banget, gak ada lag dikit pun. Buat indoor seadilah banget, under 1jt tapi fitur wifi 6. Gas bellows!"</p>
-            </div>
-
-            <div class="review-card">
-                <div class="review-header">
-                    <span>Daffa Kurnia</span>
-                    <span class="stars">★★★★★</span>
-                </div>
-                <p>"Spill rekomendasi buat kalian yang cari cctv rumah, pake ini gas! 360 derajat muter halus, AI detection nya lumayan akurat bedain orang sama kucing. Toko Aneka Jaya pelayanannya juara, fast response. Terima kasih admin!"</p>
-            </div>
-            
-            <div class="review-card">
-                <div class="review-header">
-                    <span>Nayla Putri</span>
-                    <span class="stars">★★★★★</span>
-                </div>
-                <p>"Mantap cuy, kemarin pesan jam 3 sore langsung diproses. Packing aman banget. Videonya pas unboxing alatnya berfungsi all good. Thanks Aneka Jaya!"</p>
-            </div>
-        </div>
-
-        <!-- Order Form -->
-        <div class="section" id="orderForm">
-            <h2>Form Pemesanan</h2>
-            <p style="margin-bottom: 20px;">Lengkapi data untuk melakukan pemesanan</p>
-            
-            <form id="myForm">
-                <input type="hidden" id="sku" value="XOCC0RWH">
-                <input type="hidden" id="nama_produk" value="Xiaomi Kamera CCTV Dual Lens PTZ 360 AI Detection WiFi 6 4MP - C500 - White">
-
-                <div class="form-group">
-                    <label>Jumlah Pesanan</label>
-                    <div class="qty-selector">
-                        <button type="button" class="qty-btn" onclick="updateQty(-1)">-</button>
-                        <input type="number" id="qty" class="qty-input" value="1" min="1" readonly>
-                        <button type="button" class="qty-btn" onclick="updateQty(1)">+</button>
+                <!-- Rating & Sold -->
+                <div class="flex items-center gap-4 text-sm text-gray-500">
+                    <div class="flex items-center gap-1">
+                        <div class="flex">
+                            <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                        </div>
+                        <span>5.0</span>
                     </div>
-                    <div style="margin-top:10px; font-size:1.1rem; font-weight: bold; color: var(--primary);">
-                        Total Harga: <span id="priceDisplay">Rp 1.355.000</span>
-                    </div>
-                    <div style="margin-top:5px; font-size:0.85rem; color:var(--success);">
-                        💡 Beli lebih banyak lebih hemat! (2 unit: Rp 2.600.000, 3 unit: Rp 3.825.000)
+                    <div class="flex items-center gap-1">
+                        <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+                        <span>Terjual 500+</span>
                     </div>
                 </div>
 
-                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
-
-                <h3 style="margin-bottom: 15px;">Alamat Pengiriman</h3>
-                <div class="form-group">
-                    <label>Nama Penerima *</label>
-                    <input type="text" id="nama_penerima" required placeholder="Masukkan nama lengkap">
-                </div>
-                <div class="form-group">
-                    <label>No. WhatsApp *</label>
-                    <input type="tel" id="no_whatsapp" required placeholder="0812xxxxxxx">
-                </div>
-                <div class="form-group">
-                    <label>Provinsi *</label>
-                    <input type="text" id="provinsi" required placeholder="Ketik nama provinsi">
-                </div>
-                <div class="form-group">
-                    <label>Kota/Kabupaten *</label>
-                    <input type="text" id="kota" required placeholder="Ketik nama kota/kabupaten">
-                </div>
-                <div class="form-group">
-                    <label>Kecamatan *</label>
-                    <input type="text" id="kecamatan" required placeholder="Ketik nama kecamatan">
-                </div>
-                <div class="form-group">
-                    <label>Kode Pos *</label>
-                    <input type="number" id="kode_pos" required placeholder="12345">
-                </div>
-                <div class="form-group">
-                    <label>Alamat Lengkap *</label>
-                    <textarea id="alamat_lengkap" rows="3" required placeholder="Jl. Contoh No. 123, RT/RW, Kelurahan..."></textarea>
-                </div>
-
-                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
-
-                <div class="form-group">
-                    <label>Metode Pembayaran *</label>
-                    <select id="metode_pembayaran" required onchange="toggleTransferInfo()">
-                        <option value="">Pilih Metode Pembayaran</option>
-                        <option value="COD">COD (Bayar di Tempat)</option>
-                        <option value="Transfer">Transfer Bank (BCA)</option>
-                    </select>
-                </div>
-
-                <div class="transfer-info" id="transferInfoBox">
-                    <p>Silakan transfer ke rekening berikut:</p>
-                    <p><strong>Bank BCA</strong><br>
-                    No Rek: <strong>833-307-0942</strong><br>
-                    a.n: <strong>Jerry</strong></p>
-                    <div class="form-group" style="margin-top: 15px; margin-bottom: 0;">
-                        <label>Nama Pengirim / Nama Rekening * (Untuk verifikasi pembayaran)</label>
-                        <input type="text" id="nama_rekening" placeholder="Nama sesuai rekening bank">
+                <!-- Price -->
+                <div class="bg-gray-50 rounded-2xl p-4 sm:p-5 space-y-2">
+                    <div class="flex items-center gap-3">
+                        <span class="text-gray-400 line-through text-sm sm:text-base">Rp. 2.710.000</span>
+                        <span class="bg-red-500 text-white text-xs font-bold px-2.5 py-1 rounded-full">DISKON 50%</span>
+                    </div>
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xs text-gray-500">Mulai dari</span>
+                        <span class="text-2xl sm:text-4xl font-bold text-gray-900">Rp. 1.355.000</span>
+                    </div>
+                    <div class="flex items-center gap-2 pt-1">
+                        <span class="inline-flex items-center gap-1 bg-red-50 text-red-600 text-xs font-semibold px-2.5 py-1 rounded-lg">
+                            <span class="w-1.5 h-1.5 bg-red-500 rounded-full pulse-dot"></span>
+                            Stok tersisa 2
+                        </span>
                     </div>
                 </div>
 
-                <button type="submit" id="submitBtn" class="btn-submit" style="margin-top: 20px;">Konfirmasi Pesanan</button>
-            </form>
+                <!-- Quick Info -->
+                <div class="grid grid-cols-2 gap-2.5">
+                    <div class="flex items-center gap-3 bg-white border border-gray-200 rounded-xl p-3">
+                        <div class="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="shield-check" class="w-4 h-4 text-gray-600"></i>
+                        </div>
+                        <div>
+                            <p class="text-[11px] text-gray-400">Garansi</p>
+                            <p class="text-sm font-semibold text-gray-900">1 Tahun</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-white border border-gray-200 rounded-xl p-3">
+                        <div class="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="package" class="w-4 h-4 text-gray-600"></i>
+                        </div>
+                        <div>
+                            <p class="text-[11px] text-gray-400">Berat</p>
+                            <p class="text-sm font-semibold text-gray-900">0.8 kg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <button onclick="openOrderModal()" class="w-full bg-gray-900 hover:bg-gray-800 text-white text-sm sm:text-base font-semibold py-3.5 sm:py-4 rounded-2xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 shadow-lg shadow-gray-900/20">
+                    <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                    Pesan Sekarang
+                </button>
+                <p class="text-center text-xs text-gray-400">Gratis Ongkir & Tanpa Biaya COD</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT DETAIL IMAGES -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-4">
+        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Detail Produk</h2>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/3a30d8a3-9553-46d7-8397-08992a870176.jpg?auth_key=1881972479-e8542f5e294f4b41b11d39ed7446a77c-0-ad519165149e23f8d3b57fbe04999828" alt="Dual Camera Feature" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/3d52ab60-6b49-415c-b1fa-93abf0e60b98.jpeg?auth_key=1881972479-3a0895dccee84e8c90ccea75684c248e-0-a5c064836596c607142c10f492ba39e8" alt="360 Monitoring" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/c9709661-e9a5-4b55-9d3c-edb279c99646.jpeg?auth_key=1881972479-73f2550ad2014ae1955bc9182407aaac-0-b25d6cc6836b38e06da577bcb2957d32" alt="Dual Lens" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/b4b06da1-2e6d-49b4-8fc1-a333bc4f2785.jpeg?auth_key=1881972479-fc4aec8b6654444b9449df306bc3107d-0-650ceae78ad3cb2f448825feb1714d09" alt="4MP Clarity" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/d55d3606-d810-44a9-abc5-cb8cddb53996.jpeg?auth_key=1881972479-b17860f42521474091d9e42f4931a6e0-0-2551c6fd8ae6b06e7e463c4fe415b496" alt="AI Chip" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/5eeec701-135a-4e1f-9554-011534da7f16.jpg?auth_key=1881972479-5b5a4b66ba8743309544336eb070bc08-0-5f5678ae79e9ac8c4db8667aaec078ba" alt="WiFi 6" class="w-full">
+        </div>
+        <div class="img-prot rounded-2xl overflow-hidden border border-gray-100">
+            <img src="https://z-cdn-media.chatglm.cn/files/e6c5dcee-9ded-49d5-b5ce-15421c7dab47.jpg?auth_key=1881972479-005f2f6251ca48cfb6181f4b2b7f239a-0-29353e19451e6bf1df8ff26d3bc059f6" alt="Mounting Options" class="w-full">
+        </div>
+    </section>
+
+    <!-- DESCRIPTION & SPECS -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-3">
+        
+        <!-- Rincian Produk -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+            <button onclick="toggleAcc(this)" class="w-full flex items-center justify-between p-5 text-left">
+                <span class="text-base font-bold text-gray-900">Rincian Produk</span>
+                <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transition-transform duration-200 rotate-180"></i>
+            </button>
+            <div class="px-5 pb-5">
+                <div class="grid grid-cols-2 gap-y-3 text-sm">
+                    <span class="text-gray-400">Brand</span><span class="text-gray-900 font-medium">Xiaomi</span>
+                    <span class="text-gray-400">Garansi</span><span class="text-gray-900 font-medium">1 Tahun Garansi</span>
+                    <span class="text-gray-400">Berat Produk</span><span class="text-gray-900 font-medium">0.8 kg</span>
+                    <span class="text-gray-400">Dimensi Kemasan</span><span class="text-gray-900 font-medium">10 x 11 x 20 cm</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deskripsi Lengkap -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+            <button onclick="toggleAcc(this)" class="w-full flex items-center justify-between p-5 text-left">
+                <span class="text-base font-bold text-gray-900">Deskripsi Produk</span>
+                <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transition-transform duration-200 rotate-180"></i>
+            </button>
+            <div class="px-5 pb-5 text-sm text-gray-600 leading-relaxed space-y-4">
+                <p class="text-base text-gray-800 font-medium leading-relaxed">Ingin memiliki sistem pengawasan yang efektif dan pintar? Inilah saatnya untuk menggunakan kamera CCTV C500 dari Xiaomi. Kualitas gambar yang jernih akan Anda dapatkan dari berbagai sudut pengawasan. Dilengkapi dengan dual lensa, pan tilt zoom, Wi-Fi 6, auto tracking, night vision, AI detection, dan makin canggih dengan fitur intercom untuk berkomunikasi dalam situasi tertentu.</p>
+                
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="radar" class="w-4 h-4 text-gray-500"></i> Jangkauan Lebih Luas dengan 360° Panoramic Monitoring</h4>
+                        <p>Awasi setiap sudut rumah menggunakan kamera CCTV C500. Hadir dengan dual lensa kamera yang memiliki kemampuan rotasi <strong>360 derajat secara horizontal</strong> dan <strong>93 derajat secara vertikal</strong>. Dengan lensa wide-angle, kamera CCTV mampu menangkap area lebih luas dalam satu frame. Sistem dual camera bekerja secara sinergis — satu lensa fixed untuk pengawasan titik tetap, dan satu lensa dinamis dengan pan-tilt untuk tracking gerakan secara real-time. Hasilnya, satu perangkat mampu mengontrol keseluruhan situasi dalam satu ruangan tanpa ada titik buta.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="smartphone" class="w-4 h-4 text-gray-500"></i> Kontrol Jarak Jauh via Xiaomi Home</h4>
+                        <p>CCTV C500 telah mendukung integrasi penuh ke aplikasi <strong>Xiaomi Home (Mi Home)</strong>. Notifikasi secara real-time bisa Anda terima melalui smartphone meski lokasi Anda tidak berada di rumah. Menggunakan aplikasi, Anda juga bisa melakukan pemantauan menyeluruh dengan fitur pan, tilt, atau zoom. Semua kontrol bisa dilakukan dari mana saja selama terhubung internet, menjadikan pengawasan rumah lebih fleksibel dan praktis tanpa harus berada di lokasi.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="eye" class="w-4 h-4 text-gray-500"></i> Kualitas Rekaman Ultra Jernih 2.5K</h4>
+                        <p>Kamera CCTV ini hadir dengan <strong>resolusi dual 4 MP (2.5K)</strong> dengan lensa aperture besar <strong>F1.6</strong> sehingga menghasilkan gambar yang lebih terang, lebih jernih, dan kaya detail, terutama dalam kondisi cahaya rendah. Dibandingkan kamera 2 MP biasa, hasil rekaman C500 menampilkan detail yang jauh lebih tajam — Anda bisa mengenali wajah, membaca teks kecil, dan membedakan objek dengan jelas. Efek 1+1>2 dari dual lensa memastikan tidak ada detail yang terlewatkan.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="moon" class="w-4 h-4 text-gray-500"></i> Night Vision Berkualitas Tinggi</h4>
+                        <p>Tidak perlu khawatir saat ruangan dalam kondisi gelap karena kamera CCTV telah dibekali sistem night vision canggih. Mampu menangkap gambar malam hari dengan <strong>noise yang lebih rendah</strong>, <strong>kontras lebih baik</strong>, dan <strong>akurasi warna yang lebih natural</strong>. Berkat kombinasi sensor 4MP dan aperture F1.6, gambar di malam hari tetap terlihat jelas dan detail tanpa perlu pencahayaan tambahan yang berlebihan.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="wifi" class="w-4 h-4 text-gray-500"></i> Koneksi Super Stabil dengan Wi-Fi 6</h4>
+                        <p>Nikmati koneksi lebih cepat dan stabil dengan dukungan <strong>Dual-Band Wi-Fi 6</strong> yang mendukung jaringan <strong>2.4 GHz dan 5 GHz</strong>. Teknologi terbaru ini memastikan streaming video real-time berjalan lancar, tanpa buffering meski jarak router cukup jauh. Dibandingkan Wi-Fi 4, throughput data meningkat <strong>60%</strong>. Juga mendukung <strong>Bluetooth pairing</strong> untuk koneksi satu ketukan yang lebih mudah saat setup awal perangkat.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="brain" class="w-4 h-4 text-gray-500"></i> AI Detection Cerdas dengan Chip 1TOPS</h4>
+                        <p>Dibekali kecerdasan AI tingkat lanjut dengan <strong>chip 1TOPS bertenaga tinggi</strong> (proses 1 triliun kalkulasi per detik), kamera ini mampu membedakan antara <strong>manusia, hewan peliharaan, dan objek lainnya</strong>, sehingga mengurangi false alarm secara signifikan. Tersedia beberapa mode pemantauan AI: <strong>Pet Detection</strong> (deteksi hewan peliharaan), <strong>Crying Baby Detection</strong> (deteksi bayi menangis), <strong>Virtual Fence</strong> (pagar virtual), dan <strong>Human Tracking</strong> (pelacakan manusia). Chip ini diproduksi dengan proses <strong>22nm TSMC</strong> dan dilengkapi <strong>128MB memori</strong> untuk operasi AI lokal yang lebih aman dan privat.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="mic" class="w-4 h-4 text-gray-500"></i> Komunikasi Dua Arah (Two-Way Audio)</h4>
+                        <p>Untuk mempermudah berkomunikasi dengan orang yang berada di dalam rumah, CCTV ini dilengkapi dengan fitur <strong>voice intercom dua arah</strong>. Fitur ini cocok digunakan untuk menghadapi situasi darurat, seperti saat sedang sakit, menerima paket kurir, atau mengawasi anak dan lansia dari jarak jauh. Suara yang dihasilkan jernih dan cukup keras untuk digunakan dalam ruangan standar.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="hard-drive" class="w-4 h-4 text-gray-500"></i> Fleksibilitas Penyimpanan</h4>
+                        <p>Kamera ini mendukung tiga opsi penyimpanan: <strong>Kartu microSD</strong> (mendukung kapasitas 16GB hingga 256GB), <strong>Penyimpanan Cloud</strong> untuk akses dari mana saja, dan <strong>Penyimpanan Jaringan NAS</strong> untuk kebutuhan penyimpanan jangka panjang yang lebih besar. Anda bisa memilih kombinasi yang paling sesuai dengan kebutuhan dan budget Anda.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-4 sm:p-5">
+                        <h4 class="font-bold text-gray-900 mb-2.5 flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4 text-gray-500"></i> Opsi Pemasangan Fleksibel</h4>
+                        <p>C500 dilengkapi dengan mounting bracket yang mendukung dua mode pemasangan di langit-langit: <strong>Non-adjustable ceiling mount</strong> (fokus tetap, cocok untuk pengawasan langsung ke bawah) dan <strong>Adjustable ceiling mount</strong> (fokus bisa diatur, mampu menangkap lebih banyak sudut bawah). Selain itu, bisa dipasang di dinding dengan aksesoris yang sudah disertakan dalam paket. Kabel USB Type-C sepanjang sekitar 2 meter memberikan fleksibilitas penempatan adapter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spesifikasi -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+            <button onclick="toggleAcc(this)" class="w-full flex items-center justify-between p-5 text-left">
+                <span class="text-base font-bold text-gray-900">Spesifikasi Teknis</span>
+                <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transition-transform duration-200"></i>
+            </button>
+            <div class="px-5 pb-5 hidden">
+                <div class="grid grid-cols-1 gap-y-0 text-sm">
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Material</span><span class="text-gray-900 font-medium text-right">Plastik</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Dimensi Bodi</span><span class="text-gray-900 font-medium text-right">78 × 77 × 127 mm</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Diameter Mounting Bracket</span><span class="text-gray-900 font-medium text-right">7.6 cm</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Panjang Kabel USB Type-C</span><span class="text-gray-900 font-medium text-right">Sekitar 2 Meter</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Region</span><span class="text-gray-900 font-medium text-right">China Mainland</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Voltase</span><span class="text-gray-900 font-medium text-right">5 V, 2 A</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Suhu Operasional</span><span class="text-gray-900 font-medium text-right">-10°C ~ 45°C</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Koneksi Nirkabel</span><span class="text-gray-900 font-medium text-right">Wi-Fi IEEE 802.11 a/b/g/n/ac/ax</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Frekuensi</span><span class="text-gray-900 font-medium text-right">2.4 GHz / 5 GHz (Dual-Band)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Bluetooth</span><span class="text-gray-900 font-medium text-right">Support (One-Tap Pairing)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Resolusi Video</span><span class="text-gray-900 font-medium text-right">2560 × 1440 (2.5K)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Resolusi Kamera</span><span class="text-gray-900 font-medium text-right">4 MP + 4 MP (Dual Camera)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">FOV Lensa Fixed</span><span class="text-gray-900 font-medium text-right">110°</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">FOV Lensa PTZ</span><span class="text-gray-900 font-medium text-right">58°</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Rotasi Horizontal</span><span class="text-gray-900 font-medium text-right">360°</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Rotasi Vertikal</span><span class="text-gray-900 font-medium text-right">93°</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Aperture</span><span class="text-gray-900 font-medium text-right">F1.6</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Processor</span><span class="text-gray-900 font-medium text-right">A35 Architecture</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">AI Chip</span><span class="text-gray-900 font-medium text-right">1TOPS Computing Power (22nm TSMC)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Memori</span><span class="text-gray-900 font-medium text-right">128MB</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Audio</span><span class="text-gray-900 font-medium text-right">Dua Arah (Two-Way Audio)</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Penyimpanan</span><span class="text-gray-900 font-medium text-right">microSD 16-256GB / Cloud / NAS</span></div>
+                    <div class="flex justify-between py-2.5 border-b border-gray-100"><span class="text-gray-400">Sistem Minimum</span><span class="text-gray-900 font-medium text-right">Android 8+ / iOS 12.0+</span></div>
+                    <div class="flex justify-between py-2.5"><span class="text-gray-400">Aplikasi</span><span class="text-gray-900 font-medium text-right">Xiaomi Home (Mi Home)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kelengkapan -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+            <button onclick="toggleAcc(this)" class="w-full flex items-center justify-between p-5 text-left">
+                <span class="text-base font-bold text-gray-900">Kelengkapan Paket</span>
+                <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transition-transform duration-200"></i>
+            </button>
+            <div class="px-5 pb-5 hidden">
+                <ul class="text-sm text-gray-600 space-y-2.5">
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Mounting Bracket</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Mounting Template Sticker</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Power Adapter (5V 2A)</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Power Cable (USB Type-C, ~2m)</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>4 x Wall Mounting Accessories</li>
+                    <li class="flex items-start gap-2.5"><i data-lucide="check" class="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0"></i>1 x Panduan Penggunaan</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- WARRANTY SECTION -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 sm:p-8 space-y-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i data-lucide="shield-alert" class="w-5 h-5 text-amber-600"></i>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900">Klaim Garansi / Asuransi</h3>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">Kerusakan/cacat saat diterima. <strong>Bukan garansi resmi produk</strong>, hanya garansi pengiriman.</p>
+            <div class="bg-white rounded-xl p-4 border border-amber-100">
+                <div class="flex items-start gap-3">
+                    <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <i data-lucide="video" class="w-4 h-4 text-red-600"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-gray-900">Video Unboxing Tanpa Jeda</p>
+                        <p class="text-sm text-gray-500 mt-1">Video unboxing tanpa jeda yang memperlihatkan kerusakan barang dan kondisi paket saat diterima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Ulasan Pembeli</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center text-white text-sm font-bold">R</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Rafi A.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">bro ini cctv gila banget, gambar nya jernih parah 🔥</p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full flex items-center justify-center text-white text-sm font-bold">D</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Denisa R.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">udah pake 2 minggu, auto tracking nya works bgt, mantap sih 👍</p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-green-400 to-emerald-400 rounded-full flex items-center justify-center text-white text-sm font-bold">F</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Farel M.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">worth it banget harga segini, night vision nya clear walaupun gelap banget 🌙</p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center text-white text-sm font-bold">S</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Sinta K.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">dual lens nya no debat, cover seluruh ruangan, nggak ada dead spot 😤💯</p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-indigo-400 to-violet-400 rounded-full flex items-center justify-center text-white text-sm font-bold">A</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Arga P.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">setup gampang banget tinggal scan qr doang 🫶 wifi 6 nya juga lancar jaya</p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-teal-400 to-green-400 rounded-full flex items-center justify-center text-white text-sm font-bold">N</div>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Naya Z.</p>
+                        <div class="flex"><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i><i data-lucide="star" class="w-3 h-3 fill-yellow-400 text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed">intercom nya rada delay dikit tapi overall sih top banget, AI detection nya akurat 🤖</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white mt-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+            <div class="lg:col-span-1">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-10 h-10 bg-white rounded-xl flex items-center justify-center">
+                        <span class="text-gray-900 font-bold text-sm">AJ</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">Aneka Jaya</span>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed">Toko terpercaya yang menyediakan produk-produk berkualitas dengan harga terbaik untuk kebutuhan Anda.</p>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-300 mb-4">Kategori</h4>
+                <ul class="space-y-2.5 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white transition-colors">Kamera CCTV</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Smart Home</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Aksesoris</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Elektronik</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-300 mb-4">Kontak</h4>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li class="flex items-center gap-2.5">
+                        <i data-lucide="phone" class="w-4 h-4 text-gray-500 flex-shrink-0"></i>
+                        <span>0851-8322-6514</span>
+                    </li>
+                    <li class="flex items-center gap-2.5">
+                        <i data-lucide="message-circle" class="w-4 h-4 text-gray-500 flex-shrink-0"></i>
+                        <a href="https://wa.me/6285183226514" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp</a>
+                    </li>
+                    <li class="flex items-center gap-2.5">
+                        <i data-lucide="clock" class="w-4 h-4 text-gray-500 flex-shrink-0"></i>
+                        <span>Operasional 09.00 - 17.00</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-300 mb-4">Alamat Pengiriman</h4>
+                <div class="flex items-start gap-2.5 text-sm text-gray-400">
+                    <i data-lucide="map-pin" class="w-4 h-4 text-gray-500 flex-shrink-0 mt-0.5"></i>
+                    <span>Bendungan Hilir Raya<br>Jakarta Pusat<br>DKI Jakarta 10210</span>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-sm text-gray-500">&copy; 2026 Aneka Jaya. All rights reserved.</p>
+            <div class="flex items-center gap-4">
+                <a href="https://wa.me/6285183226514" target="_blank" rel="noopener" class="w-9 h-9 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors">
+                    <i data-lucide="message-circle" class="w-4 h-4 text-gray-400"></i>
+                </a>
+            </div>
         </div>
     </div>
+</footer>
 
-    <!-- Modal Pesanan Berhasil -->
-    <div class="modal" id="successModal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h2 style="color: var(--success); text-align: center;">Pesanan Berhasil Dibuat!</h2>
-            <div style="text-align: center; margin-bottom: 15px;">
-                <p>Nomor Pesanan: <strong id="modalOrderNumber">INV-XXXX</strong></p>
-                <p>Terima kasih! Pesanan Anda telah kami terima dan akan kami proses segera.</p>
-            </div>
-            
-            <div class="receipt-box">
-                <div class="receipt-row"><span>Produk</span> <span class="text-right" id="modalProduk">-</span></div>
-                <div class="receipt-row"><span>Qty</span> <span class="text-right" id="modalQty">-</span></div>
-                <div class="receipt-row"><span>Harga</span> <span class="text-right" id="modalHarga">-</span></div>
-                <div class="receipt-row"><span>Metode</span> <span class="text-right" id="modalMetode">-</span></div>
-                <div class="receipt-row"><span>Biaya COD (3%)</span> <span class="text-right"><span class="text-danger" id="modalBiayaCod">Rp 0</span></span></div>
-                <div class="receipt-row"><span>Ongkir</span> <span class="text-right"><span class="text-danger">Rp 18.400</span> Gratis</span></div>
-                <hr style="margin: 10px 0; border-top: 2px solid #333;">
-                <div class="receipt-row" style="font-weight: bold; font-size: 1.1rem;"><span>Total Pembayaran</span> <span class="text-right" id="modalTotal">-</span></div>
-            </div>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/6285183226514" target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-40 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg shadow-green-500/30 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6 text-white"></i>
+</a>
 
-            <p style="font-size: 0.85rem; color: red; text-align: center; margin-bottom: 10px;">
-                <strong>Penting:</strong> Untuk klaim garansi pengiriman, diperlukan video unboxing tanpa jeda dan foto resi paket.
-            </p>
-            <p style="text-align: center; font-size: 0.9rem;">
-                Pesanan akan diproses setelah pembayaran dikonfirmasi dalam 24 jam.
-            </p>
-            <button class="btn-buy" style="margin-top: 15px; background: #666;" onclick="closeModal()">Tutup</button>
+<!-- ORDER MODAL -->
+<div id="orderModal" class="fixed inset-0 z-[60] hidden">
+    <div class="modal-overlay absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeOrderModal()"></div>
+    <div class="relative flex items-start justify-center min-h-screen p-3 sm:p-4 pt-6 sm:pt-8 pb-6 sm:pb-8 overflow-y-auto confirm-scroll">
+        <div class="modal-content bg-white rounded-2xl sm:rounded-3xl w-full max-w-lg shadow-2xl my-auto">
+            <div class="flex items-center justify-between p-4 sm:p-5 border-b border-gray-100">
+                <div>
+                    <h2 class="text-base sm:text-lg font-bold text-gray-900">Form Pemesanan</h2>
+                    <p class="text-[11px] sm:text-xs text-gray-400 mt-0.5">Lengkapi data untuk melakukan pemesanan</p>
+                </div>
+                <button onclick="closeOrderModal()" class="w-8 h-8 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center transition-colors">
+                    <i data-lucide="x" class="w-4 h-4 text-gray-500"></i>
+                </button>
+            </div>
+            <div class="p-4 sm:p-5 space-y-5 max-h-[65vh] overflow-y-auto confirm-scroll">
+                <div class="flex gap-3 bg-gray-50 rounded-xl p-3">
+                    <div class="img-prot w-14 h-14 sm:w-16 sm:h-16 rounded-lg overflow-hidden flex-shrink-0 bg-gray-200">
+                        <img src="https://z-cdn-media.chatglm.cn/files/07c177b1-19f2-461a-a65f-49eee852d75f.jpeg?auth_key=1881972479-613dcd3950264b2cb07825ab578e2c34-0-ca9865af2a7f186acee0cbf8ab0f12d7" alt="product" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-xs sm:text-sm font-semibold text-gray-900 truncate">Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih</p>
+                        <p class="text-[10px] sm:text-xs text-gray-400 mt-0.5">SKU: XOCC0RWH</p>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-900 mb-2">Jumlah</label>
+                    <div class="flex items-center gap-3">
+                        <button onclick="changeQty(-1)" class="w-10 h-10 border border-gray-200 rounded-xl flex items-center justify-center hover:bg-gray-50 transition-colors text-lg font-medium text-gray-600">−</button>
+                        <span id="qtyDisplay" class="text-lg font-bold text-gray-900 w-8 text-center">1</span>
+                        <button onclick="changeQty(1)" class="w-10 h-10 border border-gray-200 rounded-xl flex items-center justify-center hover:bg-gray-50 transition-colors text-lg font-medium text-gray-600">+</button>
+                        <span id="priceDisplay" class="ml-auto text-base sm:text-lg font-bold text-gray-900">Rp. 1.355.000</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-gray-400"></i> Alamat Pengiriman
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Nama Penerima <span class="text-red-500">*</span></label>
+                            <input type="text" id="namaPenerima" placeholder="Nama lengkap penerima" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">No. WhatsApp <span class="text-red-500">*</span></label>
+                            <input type="tel" id="noWA" placeholder="08xxxxxxxxxx" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Provinsi <span class="text-red-500">*</span></label>
+                            <input type="text" id="provinsi" placeholder="Ketik provinsi" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Kota/Kabupaten <span class="text-red-500">*</span></label>
+                            <input type="text" id="kota" placeholder="Ketik kota/kabupaten" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Kecamatan <span class="text-red-500">*</span></label>
+                            <input type="text" id="kecamatan" placeholder="Ketik kecamatan" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Kode Pos <span class="text-red-500">*</span></label>
+                            <input type="text" id="kodePos" placeholder="Kode pos" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-500 mb-1">Alamat Lengkap <span class="text-red-500">*</span></label>
+                            <textarea id="alamatLengkap" rows="2" placeholder="Nama jalan, nomor rumah, RT/RW, kelurahan" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all resize-none"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <i data-lucide="credit-card" class="w-4 h-4 text-gray-400"></i> Metode Pembayaran
+                    </h3>
+                    <div class="relative">
+                        <select id="metodeBayar" onchange="toggleRekeningField()" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all appearance-none bg-white cursor-pointer">
+                            <option value="">Pilih metode pembayaran</option>
+                            <option value="COD">COD (Bayar di Tempat)</option>
+                            <option value="Transfer">Transfer Bank BCA</option>
+                        </select>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                    </div>
+                    <div id="bcaInfo" class="hidden mt-3 bg-blue-50 border border-blue-100 rounded-xl p-4">
+                        <p class="text-xs font-semibold text-blue-800 mb-2">Transfer ke rekening:</p>
+                        <div class="space-y-1.5 text-sm">
+                            <div class="flex justify-between"><span class="text-blue-600">Bank</span><span class="font-semibold text-blue-900">BCA</span></div>
+                            <div class="flex justify-between"><span class="text-blue-600">No. Rekening</span><span class="font-semibold text-blue-900">833-307-0942</span></div>
+                            <div class="flex justify-between"><span class="text-blue-600">Atas Nama</span><span class="font-semibold text-blue-900">Jerry</span></div>
+                        </div>
+                    </div>
+                    <div id="rekeningField" class="hidden mt-3">
+                        <label class="block text-xs font-medium text-gray-500 mb-1">Nama Pengirim / Nama Rekening <span class="text-red-500">*</span></label>
+                        <input type="text" id="namaRekening" placeholder="Sesuai nama di rekening" class="w-full px-3.5 sm:px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all">
+                        <p class="text-xs text-gray-400 mt-1">Untuk verifikasi pembayaran</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 sm:p-5 border-t border-gray-100">
+                <button onclick="submitOrder()" id="submitBtn" class="w-full bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3.5 rounded-2xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 text-sm sm:text-base">
+                    <i data-lucide="check-circle" class="w-5 h-5"></i> Konfirmasi Pesanan
+                </button>
+            </div>
         </div>
     </div>
+</div>
 
-    <!-- Floating WA -->
-    <a href="https://wa.me/6285183226514?text=Halo%20Admin%20Aneka%20Jaya,%20saya%20mau%20tanya%20produk%20CCTV" target="_blank" class="floating-wa">💬</a>
-
-    <footer>
-        <p>&copy; 2026 Aneka Jaya. All Rights Reserved.</p>
-    </footer>
-
-    <script>
-        let qty = 1;
-
-        // Tabel Harga Kelipatan (Bisa diubah sesuai kebijakan toko)
-        const priceTiers = {
-            1: 1355000,  // 1 unit = Rp 1.355.000
-            2: 2600000,  // 2 unit = Rp 2.600.000 (Hemat 110.000)
-            3: 3825000,  // 3 unit = Rp 3.825.000 (Hemat 240.000)
-            4: 5000000,  // 4 unit = Rp 5.000.000 (Hemat 420.000)
-            5: 6125000   // 5 unit = Rp 6.125.000 (Hemat 650.000)
-        };
-
-        function calculateTotalPrice(quantity) {
-            if (quantity <= 0) return 0;
-            if (priceTiers[quantity]) {
-                return priceTiers[quantity];
-            } else {
-                // Untuk pembelian di atas 5 unit, tambahkan 1.200.000 per unit tambahan
-                let extraQty = quantity - 5;
-                return priceTiers[5] + (1200000 * extraQty);
-            }
-        }
-
-        // Image Gallery Logic
-        const images = [
-            "https://z-cdn-media.chatglm.cn/files/830f5f73-aae4-4eb0-8e80-ba6d12402dd5.jpeg?auth_key=1881841709-a73d8755bcaf47ba9bb6f46eada3dda6-0-348c2b5628e9b6c1340f62050c66a300",
-            "https://z-cdn-media.chatglm.cn/files/a6d4caff-32e2-48b2-b18d-f71b3e9b8e6b.jpeg?auth_key=1881841974-a29153c516b544eaa8aa23cc3c7a6ef1-0-e5f0bad6c4b0d0ce74d2837a5467f240",
-            "https://z-cdn-media.chatglm.cn/files/85d3e44a-cba7-4f19-888d-1a3ae68d512a.jpg?auth_key=1881841974-1763f6d9755744ff976ef2793413db8a-0-45fb813eb410f8af018025857c9e61f2",
-            "https://z-cdn-media.chatglm.cn/files/f2ef1d6d-13c1-44ec-b725-db47bd65f657.jpg?auth_key=1881841974-e527ec97a29c4e0799f61034ccdf1a97-0-6edcf7fd72706dbe02b547d818112b62",
-            "https://z-cdn-media.chatglm.cn/files/302b0062-7ead-4e76-a6b7-886e91534147.jpeg?auth_key=1881841974-0c49bc49944f417ea227050ee2984563-0-1517866a518925641bf0e40155871d19",
-            "https://z-cdn-media.chatglm.cn/files/4f37ddfd-4213-438b-b241-d57afa2d7224.jpg?auth_key=1881841974-b2fb7f3a103f46108d92b672e4fd91f8-0-81955f95fd2e375bc624f8b1f9e47c27",
-            "https://z-cdn-media.chatglm.cn/files/45ff1f44-c2f2-4252-b21d-a6a32c7e061c.jpeg?auth_key=1881841974-fac9fdd50b9a405793aa7288a5338380-0-9d6922436353c8c821032441f58b98f0",
-            "https://z-cdn-media.chatglm.cn/files/ab990a68-d7eb-4427-9438-6d7def851548.jpeg?auth_key=1881841974-5d6486cddf3b4bbeb1da3add6208ee81-0-4d71fcedb78824824932237863881c7b",
-            "https://z-cdn-media.chatglm.cn/files/90168228-c666-4f9b-bdc5-42b6ed4e3a9d.jpeg?auth_key=1881841974-d3988fd058b34e93b419301295573f61-0-3eb42aa3149ccff8305896a1099d7373"
-        ];
-        let currentImageIndex = 0;
-        const thumbContainer = document.getElementById('thumbContainer');
-
-        // Build Thumbnails
-        images.forEach((img, index) => {
-            let thumb = document.createElement('img');
-            thumb.src = img;
-            thumb.classList.add('thumbnail');
-            if(index === 0) thumb.classList.add('active');
-            thumb.onclick = () => setMainImage(index);
-            thumbContainer.appendChild(thumb);
-        });
-
-        function setMainImage(index) {
-            currentImageIndex = index;
-            document.getElementById('mainImage').src = images[index];
-            let thumbs = document.getElementsByClassName('thumbnail');
-            for(let i = 0; i < thumbs.length; i++) {
-                thumbs[i].classList.remove('active');
-            }
-            thumbs[index].classList.add('active');
-        }
-
-        function changeImageSlider(direction) {
-            let newIndex = currentImageIndex + direction;
-            if(newIndex >= images.length) newIndex = 0;
-            if(newIndex < 0) newIndex = images.length - 1;
-            setMainImage(newIndex);
-        }
-
-        // Quantity Logic
-        function updateQty(change) {
-            qty = Math.max(1, qty + change);
-            document.getElementById('qty').value = qty;
-            document.getElementById('priceDisplay').innerText = formatRupiah(calculateTotalPrice(qty));
-        }
-
-        function formatRupiah(angka) {
-            return 'Rp ' + angka.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-        }
-
-        // Payment Method Logic
-        function toggleTransferInfo() {
-            let metode = document.getElementById('metode_pembayaran').value;
-            let box = document.getElementById('transferInfoBox');
-            let namaRekInput = document.getElementById('nama_rekening');
-            
-            if (metode === 'Transfer') {
-                box.style.display = 'block';
-                namaRekInput.setAttribute('required', 'true');
-            } else {
-                box.style.display = 'none';
-                namaRekInput.removeAttribute('required');
-            }
-        }
-
-        // Webhook & Form Submit Logic
-        document.getElementById('myForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const submitBtn = document.getElementById('submitBtn');
-            
-            // ANTI-SPAM: Cek jika tombol lagi disabled, langsung hentikan
-            if(submitBtn.disabled) return;
-
-            // Ubah state tombol jadi loading & disabled
-            submitBtn.disabled = true;
-            submitBtn.innerText = 'Memproses Pesanan...';
-            submitBtn.style.background = '#6c757d'; // Warna abu-abu
-
-            let metode = document.getElementById('metode_pembayaran').value;
-            let namaRekening = document.getElementById('nama_rekening').value || "-";
-
-            // Hitung total harga berdasarkan kelipatan
-            let totalHarga = calculateTotalPrice(qty);
-            let biayaCod = 0;
-            
-            if (metode === 'COD') {
-                biayaCod = Math.round(totalHarga * 0.03); // 3% biaya COD
-            }
-
-            let orderNumber = 'INV-' + Date.now();
-
-            let webhookData = {
-                no_pesanan: orderNumber,
-                nama_produk: document.getElementById('nama_produk').value,
-                sku: document.getElementById('sku').value,
-                harga: totalHarga, // Mengirim total harga ke Google Sheets
-                qty: qty,
-                nama_penerima: document.getElementById('nama_penerima').value,
-                no_whatsapp: document.getElementById('no_whatsapp').value,
-                provinsi: document.getElementById('provinsi').value,
-                kota: document.getElementById('kota').value,
-                kecamatan: document.getElementById('kecamatan').value,
-                kode_pos: document.getElementById('kode_pos').value,
-                alamat_lengkap: document.getElementById('alamat_lengkap').value,
-                metode_pembayaran: metode,
-                nama_rekening: namaRekening
-            };
-
-            // Kirim ke Google Sheets
-            fetch('https://script.google.com/macros/s/AKfycbzu4PNNIZy8IXOP3VFyj24eBxM2Evdcu2sJ75HE9RTQh3Dr8hf8Ytf4y48uTsj9UHUmSQ/exec', {
-                method: 'POST',
-                mode: 'no-cors',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(webhookData)
-            }).then(() => {
-                // Meta Pixel Purchase Event
-                fbq('track', 'Purchase', {
-                    value: totalHarga,
-                    currency: 'IDR'
-                });
-
-                // Tampilkan Modal Sukses
-                document.getElementById('modalOrderNumber').innerText = orderNumber;
-                document.getElementById('modalProduk').innerText = 'Xiaomi C500';
-                document.getElementById('modalQty').innerText = qty + ' pcs';
-                document.getElementById('modalHarga').innerText = formatRupiah(totalHarga); // Menampilkan total harga di struk
-                document.getElementById('modalMetode').innerText = metode;
+<!-- CONFIRMATION MODAL - FULLY SCROLLABLE -->
+<div id="confirmModal" class="fixed inset-0 z-[70] hidden">
+    <div class="modal-overlay absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+    <div class="absolute inset-0 overflow-y-auto overflow-x-hidden confirm-scroll" style="-webkit-overflow-scrolling:touch;">
+        <div class="min-h-full flex items-center justify-center p-3 sm:p-4 py-6 sm:py-10">
+            <div class="modal-content bg-white rounded-2xl sm:rounded-3xl w-full max-w-lg shadow-2xl">
                 
-                if (metode === 'COD') {
-                    document.getElementById('modalBiayaCod').innerText = formatRupiah(biayaCod);
-                } else {
-                    document.getElementById('modalBiayaCod').innerText = 'Rp 0';
-                }
+                <!-- Success Header -->
+                <div class="text-center pt-7 sm:pt-8 pb-3 sm:pb-4 px-5 sm:px-6 fade-up-1">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 check-anim">
+                        <i data-lucide="check" class="w-8 h-8 text-green-600"></i>
+                    </div>
+                    <h2 class="text-lg sm:text-xl font-bold text-gray-900">Pesanan Berhasil Dibuat!</h2>
+                    <p class="text-xs sm:text-sm text-gray-500 mt-1">Terima kasih! Pesanan Anda telah kami terima dan akan kami proses segera.</p>
+                </div>
 
-                document.getElementById('modalTotal').innerText = formatRupiah(totalHarga);
-                
-                document.getElementById('successModal').style.display = 'flex';
-                document.getElementById('myForm').reset();
-                document.getElementById('qty').value = 1;
-                qty = 1;
-                document.getElementById('priceDisplay').innerText = formatRupiah(calculateTotalPrice(1));
-                toggleTransferInfo();
-                
-            }).catch(error => {
-                alert('Terjadi kesalahan jaringan, coba lagi atau hubungi admin via WA.');
-                console.error('Error:', error);
-                // Kembalikan tombol kalau error
-                submitBtn.disabled = false;
-                submitBtn.innerText = 'Konfirmasi Pesanan';
-                submitBtn.style.background = '#28a745';
-            });
-        });
+                <!-- Scrollable Receipt Area -->
+                <div class="px-5 sm:px-6 pb-4 fade-up-2">
+                    <div class="bg-gray-50 rounded-2xl p-4 sm:p-5 border border-gray-100">
+                        <div class="text-center mb-4 pb-4 border-b border-dashed border-gray-200">
+                            <p class="text-[10px] sm:text-xs text-gray-400 uppercase tracking-wider">Nomor Pesanan</p>
+                            <p id="receiptOrderNo" class="text-base sm:text-lg font-bold text-gray-900 mt-1 font-mono">AJ-000000-0000</p>
+                        </div>
+                        <div class="space-y-2.5 text-sm">
+                            <div class="flex justify-between"><span class="text-gray-400">Jumlah Pesanan</span><span id="receiptQty" class="font-semibold text-gray-900">1 unit</span></div>
+                            <div class="flex justify-between items-start gap-2"><span class="text-gray-400 flex-shrink-0">Produk</span><span id="receiptProduct" class="font-semibold text-gray-900 text-right">Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">Harga</span><span id="receiptPrice" class="font-semibold text-gray-900">Rp. 1.355.000</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">Metode</span><span id="receiptMethod" class="font-semibold text-gray-900">COD</span></div>
+                            <div class="border-t border-dashed border-gray-200 pt-2.5 space-y-2">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-gray-400">Biaya COD</span>
+                                    <div class="text-right flex items-center gap-1.5">
+                                        <span id="receiptCodFee" class="text-gray-300 line-through text-xs">Rp. 40.650</span>
+                                        <span class="font-semibold text-green-600">Rp. 0</span>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span class="text-gray-400">Ongkir</span>
+                                    <div class="text-right flex items-center gap-1.5">
+                                        <span class="text-gray-300 line-through text-xs">Rp. 25.000</span>
+                                        <span class="font-semibold text-green-600">Gratis</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-t border-gray-200 pt-2.5">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-gray-900">Total Pembayaran</span>
+                                    <span id="receiptTotal" class="text-lg sm:text-xl font-bold text-gray-900">Rp. 1.355.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        function closeModal() {
-            document.getElementById('successModal').style.display = 'none';
-            
-            // Kembalikan tombol ke keadaan awal saat modal ditutup
-            const submitBtn = document.getElementById('submitBtn');
-            submitBtn.disabled = false;
-            submitBtn.innerText = 'Konfirmasi Pesanan';
-            submitBtn.style.background = '#28a745';
-        }
-    </script>
+                <!-- Important Notes -->
+                <div class="px-5 sm:px-6 pb-4 fade-up-3">
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+                        <div class="flex items-start gap-2.5">
+                            <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0"></i>
+                            <div class="text-[11px] sm:text-xs text-amber-800 leading-relaxed">
+                                <p class="font-bold mb-1">Penting:</p>
+                                <p>Untuk klaim garansi pengiriman, diperlukan video unboxing tanpa jeda dan foto resi paket.</p>
+                                <p class="mt-1" id="receiptProcessNote">Pesanan kamu akan diproses paling lama 4 hari kerja.</p>
+                                <p class="mt-1 hidden" id="receiptTransferNote">Pesanan akan diproses setelah pembayaran dikonfirmasi dalam 24 jam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WhatsApp Contact -->
+                <div class="px-5 sm:px-6 pb-4 fade-up-4">
+                    <div class="bg-green-50 border border-green-200 rounded-xl p-4 flex items-center justify-between gap-3">
+                        <div class="min-w-0">
+                            <p class="text-[10px] sm:text-xs text-green-600 font-medium">From Pesanan</p>
+                            <p class="text-sm font-bold text-green-800">085183226514</p>
+                            <p class="text-[10px] sm:text-xs text-green-600">Operasional 09.00-17.00</p>
+                        </div>
+                        <a id="receiptWABtn" href="https://wa.me/6285183226514" target="_blank" rel="noopener" class="bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm font-medium px-3 sm:px-4 py-2.5 rounded-xl transition-colors flex items-center gap-1.5 flex-shrink-0">
+                            <i data-lucide="message-circle" class="w-4 h-4"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Close Button -->
+                <div class="p-4 sm:p-5 pt-0 sm:pt-2 fade-up-5">
+                    <button onclick="closeConfirmModal()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3.5 rounded-2xl transition-all duration-200 text-sm sm:text-base">
+                        Tutup
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TOAST -->
+<div id="toastContainer" class="fixed bottom-24 left-1/2 -translate-x-1/2 z-[80] space-y-2"></div>
+
+<script>
+// ===== ANTI DOWNLOAD / SCREENSHOT =====
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'PrintScreen') { e.preventDefault(); navigator.clipboard.writeText('').catch(function(){}); }
+    if (e.ctrlKey && e.key === 'p') { e.preventDefault(); }
+    if (e.ctrlKey && e.shiftKey && (e.key === 'S' || e.key === 's')) { e.preventDefault(); }
+    if (e.metaKey && e.key === 'p') { e.preventDefault(); }
+    if (e.metaKey && e.shiftKey && (e.key === 'S' || e.key === 's')) { e.preventDefault(); }
+});
+
+// ===== IMAGE GALLERY =====
+var images = [
+    'https://z-cdn-media.chatglm.cn/files/07c177b1-19f2-461a-a65f-49eee852d75f.jpeg?auth_key=1881972479-613dcd3950264b2cb07825ab578e2c34-0-ca9865af2a7f186acee0cbf8ab0f12d7',
+    'https://z-cdn-media.chatglm.cn/files/3a30d8a3-9553-46d7-8397-08992a870176.jpg?auth_key=1881972479-e8542f5e294f4b41b11d39ed7446a77c-0-ad519165149e23f8d3b57fbe04999828',
+    'https://z-cdn-media.chatglm.cn/files/c9709661-e9a5-4b55-9d3c-edb279c99646.jpeg?auth_key=1881972479-73f2550ad2014ae1955bc9182407aaac-0-b25d6cc6836b38e06da577bcb2957d32',
+    'https://z-cdn-media.chatglm.cn/files/3d52ab60-6b49-415c-b1fa-93abf0e60b98.jpeg?auth_key=1881972479-3a0895dccee84e8c90ccea75684c248e-0-a5c064836596c607142c10f492ba39e8',
+    'https://z-cdn-media.chatglm.cn/files/b4b06da1-2e6d-49b4-8fc1-a333bc4f2785.jpeg?auth_key=1881972479-fc4aec8b6654444b9449df306bc3107d-0-650ceae78ad3cb2f448825feb1714d09',
+    'https://z-cdn-media.chatglm.cn/files/d55d3606-d810-44a9-abc5-cb8cddb53996.jpeg?auth_key=1881972479-b17860f42521474091d9e42f4931a6e0-0-2551c6fd8ae6b06e7e463c4fe415b496',
+    'https://z-cdn-media.chatglm.cn/files/5eeec701-135a-4e1f-9554-011534da7f16.jpg?auth_key=1881972479-5b5a4b66ba8743309544336eb070bc08-0-5f5678ae79e9ac8c4db8667aaec078ba',
+    'https://z-cdn-media.chatglm.cn/files/e6c5dcee-9ded-49d5-b5ce-15421c7dab47.jpg?auth_key=1881972479-005f2f6251ca48cfb6181f4b2b7f239a-0-29353e19451e6bf1df8ff26d3bc059f6'
+];
+
+function changeImage(index) {
+    document.getElementById('mainImage').src = images[index];
+    var thumbs = document.getElementById('thumbGrid').children;
+    for (var i = 0; i < thumbs.length; i++) { thumbs[i].classList.remove('thumb-active'); }
+    thumbs[index].classList.add('thumb-active');
+}
+
+// ===== ACCORDION =====
+function toggleAcc(btn) {
+    var content = btn.nextElementSibling;
+    var icon = btn.querySelector('[data-lucide]');
+    if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+    } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+    }
+}
+
+// ===== PRICING =====
+var priceTiers = { 1: 1355000, 2: 2690000 };
+var currentQty = 1;
+var maxStock = 2;
+
+function formatRp(num) { return 'Rp. ' + num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+
+function changeQty(delta) {
+    var newQty = currentQty + delta;
+    if (newQty < 1) newQty = 1;
+    if (newQty > maxStock) { showToast('Stok tersisa ' + maxStock + ' unit'); newQty = maxStock; }
+    currentQty = newQty;
+    document.getElementById('qtyDisplay').textContent = currentQty;
+    document.getElementById('priceDisplay').textContent = formatRp(priceTiers[currentQty]);
+}
+
+// ===== PAYMENT TOGGLE =====
+function toggleRekeningField() {
+    var method = document.getElementById('metodeBayar').value;
+    if (method === 'Transfer') {
+        document.getElementById('bcaInfo').classList.remove('hidden');
+        document.getElementById('rekeningField').classList.remove('hidden');
+    } else {
+        document.getElementById('bcaInfo').classList.add('hidden');
+        document.getElementById('rekeningField').classList.add('hidden');
+    }
+}
+
+// ===== ORDER MODAL =====
+function openOrderModal() {
+    document.getElementById('orderModal').classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    lucide.createIcons();
+}
+function closeOrderModal() {
+    document.getElementById('orderModal').classList.add('hidden');
+    document.body.style.overflow = '';
+}
+
+// ===== TOAST =====
+function showToast(msg) {
+    var c = document.getElementById('toastContainer');
+    var t = document.createElement('div');
+    t.className = 'toast-anim bg-gray-900 text-white text-sm px-5 py-3 rounded-xl shadow-lg whitespace-nowrap';
+    t.textContent = msg;
+    c.appendChild(t);
+    setTimeout(function() { t.remove(); }, 3000);
+}
+
+// ===== ORDER NUMBER =====
+function generateOrderNo() {
+    var n = new Date();
+    return 'AJ-' + n.getFullYear() + String(n.getMonth()+1).padStart(2,'0') + String(n.getDate()).padStart(2,'0') + '-' + String(Math.floor(1000+Math.random()*9000));
+}
+
+// ===== SUBMIT ORDER =====
+function submitOrder() {
+    var nama = document.getElementById('namaPenerima').value.trim();
+    var wa = document.getElementById('noWA').value.trim();
+    var prov = document.getElementById('provinsi').value.trim();
+    var kota = document.getElementById('kota').value.trim();
+    var kec = document.getElementById('kecamatan').value.trim();
+    var pos = document.getElementById('kodePos').value.trim();
+    var alamat = document.getElementById('alamatLengkap').value.trim();
+    var method = document.getElementById('metodeBayar').value;
+    var namaRek = document.getElementById('namaRekening').value.trim();
+
+    if (!nama) { showToast('Nama penerima wajib diisi'); return; }
+    if (!wa) { showToast('No. WhatsApp wajib diisi'); return; }
+    if (!prov) { showToast('Provinsi wajib diisi'); return; }
+    if (!kota) { showToast('Kota/Kabupaten wajib diisi'); return; }
+    if (!kec) { showToast('Kecamatan wajib diisi'); return; }
+    if (!pos) { showToast('Kode pos wajib diisi'); return; }
+    if (!alamat) { showToast('Alamat lengkap wajib diisi'); return; }
+    if (!method) { showToast('Pilih metode pembayaran'); return; }
+    if (method === 'Transfer' && !namaRek) { showToast('Nama rekening wajib diisi'); return; }
+
+    var orderNo = generateOrderNo();
+    var harga = priceTiers[currentQty];
+    var codFee = Math.round(harga * 0.03);
+    var productName = 'Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih';
+    var finalNamaRek = method === 'Transfer' ? namaRek : '-';
+
+    var btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<svg class="animate-spin w-5 h-5" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path></svg> Memproses...';
+
+    var payload = {
+        no_pesanan: orderNo,
+        nama_produk: productName,
+        sku: 'XOCC0RWH',
+        harga: harga,
+        qty: currentQty,
+        nama_penerima: nama,
+        no_whatsapp: wa,
+        provinsi: prov,
+        kota: kota,
+        kecamatan: kec,
+        kode_pos: pos,
+        alamat_lengkap: alamat,
+        metode_pembayaran: method,
+        nama_rekening: finalNamaRek
+    };
+
+    fetch('https://script.google.com/macros/s/AKfycbzu4PNNIZy8IXOP3VFyj24eBxM2Evdcu2sJ75HE9RTQh3Dr8hf8Ytf4y48uTsj9UHUmSQ/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+    })
+    .then(function() {
+        if (typeof fbq === 'function') { fbq('track', 'Purchase', { value: harga, currency: 'IDR' }); }
+        closeOrderModal();
+        showConfirmation(orderNo, harga, codFee, method);
+    })
+    .catch(function() {
+        if (typeof fbq === 'function') { fbq('track', 'Purchase', { value: harga, currency: 'IDR' }); }
+        closeOrderModal();
+        showConfirmation(orderNo, harga, codFee, method);
+    })
+    .finally(function() {
+        btn.disabled = false;
+        btn.innerHTML = '<i data-lucide="check-circle" class="w-5 h-5"></i> Konfirmasi Pesanan';
+        lucide.createIcons();
+    });
+}
+
+// ===== SHOW CONFIRMATION =====
+function showConfirmation(orderNo, harga, codFee, method) {
+    document.getElementById('receiptOrderNo').textContent = orderNo;
+    document.getElementById('receiptQty').textContent = currentQty + ' unit';
+    document.getElementById('receiptProduct').textContent = 'Xiaomi Smart Cam C500 Dual Eye PTZ WiFi 6 4MP - Putih';
+    document.getElementById('receiptPrice').textContent = formatRp(harga);
+    document.getElementById('receiptMethod').textContent = method === 'COD' ? 'COD' : 'Transfer BCA';
+    document.getElementById('receiptCodFee').textContent = formatRp(codFee);
+    document.getElementById('receiptTotal').textContent = formatRp(harga);
+
+    if (method === 'Transfer') {
+        document.getElementById('receiptTransferNote').classList.remove('hidden');
+    } else {
+        document.getElementById('receiptTransferNote').classList.add('hidden');
+    }
+
+    var waText = encodeURIComponent('Halo, saya ingin mengkonfirmasi pesanan ' + orderNo + ' untuk ' + currentQty + ' unit Xiaomi Smart Cam C500. Metode: ' + method + '. Terima kasih.');
+    document.getElementById('receiptWABtn').href = 'https://wa.me/6285183226514?text=' + waText;
+
+    document.getElementById('confirmModal').classList.remove('hidden');
+    document.body.style.overflow = '';
+    lucide.createIcons();
+
+    // Scroll confirmation modal to top
+    document.querySelector('#confirmModal .confirm-scroll').scrollTop = 0;
+}
+
+function closeConfirmModal() {
+    document.getElementById('confirmModal').classList.add('hidden');
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', function() { lucide.createIcons(); });
+</script>
+
 </body>
 </html>
